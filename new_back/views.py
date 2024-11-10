@@ -32,7 +32,7 @@ async def create_user_view(
     features = list(generate_features(created_video.video_path, transcription))
     # features = [random() for _ in range(6)]
 
-    ocean = OCEAN(owner=new_user, extraversion=features[0], neuroticism=features[1], agreeableness=features[2], conscientiousness=features[3], openness=features[5])
+    ocean = OCEAN(owner=new_user, extraversion=features[0], neuroticism=features[1], agreeableness=features[2], conscientiousness=features[3], openness=features[4])
 
     session.add(ocean)
     await session.commit()
@@ -44,7 +44,7 @@ async def create_user_view(
         'neuroticism': features[1],
         'agreeableness': features[2],
         'conscientiousness': features[3],
-        'openness': features[5],
+        'openness': features[4],
     }
     plot = get_ocean_plot(features_dict)
     # vacancies, count = await get_all_vacancies(session)
