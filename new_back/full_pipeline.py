@@ -14,7 +14,6 @@ import parselmouth
 from parselmouth.praat import call
 from scipy.signal import find_peaks
 import pickle
-from config import WEIGHTS_PATH
 
 import time
 
@@ -60,8 +59,8 @@ class BertMultiRegressor(nn.Module):
         }
 
 # Модель регрессора
-tokenizer = AutoTokenizer.from_pretrained(WEIGHTS_PATH + '/hope_bert/')
-model_regressor = torch.load(WEIGHTS_PATH + '/hope_bert/hope', map_location=device).to(device)
+tokenizer = AutoTokenizer.from_pretrained('hope_bert/')
+model_regressor = torch.load('hope_bert/hope', map_location=device).to(device)
 
 def extract_first_frame_from_video(video_path):
     """

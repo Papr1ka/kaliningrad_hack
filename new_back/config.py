@@ -2,8 +2,6 @@ from pathlib import Path
 from pydantic import BaseModel
 import os
 
-WEIGHTS_PATH = "hope_bert"
-
 if os.environ.get("mode", "dev") == 'prod':
     DB_PATH = "/static/db/db.sqlite3"
     FAISS_INDEX_PATH = "/static/db/vacancy_index.index"
