@@ -59,8 +59,10 @@ class BertMultiRegressor(nn.Module):
         }
 
 # Модель регрессора
-tokenizer = AutoTokenizer.from_pretrained('hope_bert/')
-model_regressor = torch.load('hope_bert/hope', map_location=device).to(device)
+tokenizer = AutoTokenizer.from_pretrained('hope_bert')
+model_regressor = BertMultiRegressor('hope_bert', 6)
+model_regressor.load_state_dict(torch.load('hope_bert/hope.pth'))
+
 
 def extract_first_frame_from_video(video_path):
     """
