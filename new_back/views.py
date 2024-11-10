@@ -31,7 +31,6 @@ async def create_user_view(
 
     features = [float(i) for i in list(generate_features(created_video.video_path, transcription)[0])]
     # features = [random() for _ in range(6)]
-
     ocean = OCEAN(owner=new_user, extraversion=features[0], neuroticism=features[1], agreeableness=features[2], conscientiousness=features[3], openness=features[4])
 
     session.add(ocean)
@@ -48,7 +47,7 @@ async def create_user_view(
     }
     plot = get_ocean_plot(features_dict)
     # vacancies, count = await get_all_vacancies(session)
-    simillar = find_simmilar(np.array(list(features_dict.values())).reshape((1, 5)))
+    simillar = find_simmilar(np.array(list(features_dict.values())).reshape((1, 5)).astype(np.float32))
     vacancies = []
 
     print(simillar)
