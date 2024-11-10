@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-export const BACK_URL = 'http://213.171.28.36:8000/'
+export const BACK_URL = 'http://213.171.28.36:8000'
 
 export const getAllUsers = function (skip, count, filter) {
   return axios
