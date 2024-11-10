@@ -29,7 +29,7 @@ async def create_user_view(
     await session.commit()
     created_video: Video = await save_user_video(new_user, video, transcription, session)
 
-    features = list(generate_features(created_video.video_path, transcription))[0]
+    features = [float(i) for i in list(generate_features(created_video.video_path, transcription)[0])]
     # features = [random() for _ in range(6)]
 
     ocean = OCEAN(owner=new_user, extraversion=features[0], neuroticism=features[1], agreeableness=features[2], conscientiousness=features[3], openness=features[4])
