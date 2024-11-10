@@ -11,7 +11,9 @@ from dependencies import session_dependency
 from fastapi import Form
 
 import numpy as np
-# from .full_pipeline import generate_features
+
+from full_pipeline import generate_features
+
 from get_plots import get_ocean_plot
 from search_faiss import find_simmilar
 
@@ -27,8 +29,8 @@ async def create_user_view(
     await session.commit()
     created_video: Video = await save_user_video(new_user, video, transcription, session)
 
-    # generate_features(created_video.video_path, transcription)
-    features = [random() for _ in range(6)]
+    features = list(generate_features(created_video.video_path, transcription))
+    # features = [random() for _ in range(6)]
 
     ocean = OCEAN(owner=new_user, extraversion=features[0], neuroticism=features[1], agreeableness=features[2], conscientiousness=features[3], openness=features[5])
 

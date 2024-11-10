@@ -3,7 +3,8 @@ from pydantic import BaseModel
 import os
 
 if os.environ.get("mode", "dev") == 'prod':
-    DB_PATH = "/static/db.sqlite3"
+    DB_PATH = "/static/db/db.sqlite3"
+    FAISS_INDEX_PATH = "/static/db/vacancy_index.index"
     WEIGHTS_PATH = "hope_bert"
 else:
     DB_PATH = "./db.sqlite3"
