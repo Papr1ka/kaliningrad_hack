@@ -6,9 +6,6 @@ services:
     volumes:
       # Путь к статике
       - ./new_back/static:/static:z
-
-      # Путь к весам регрессора
-      - ./hope_bert:/weights:z
     environment:
       - mode=prod
     networks:
