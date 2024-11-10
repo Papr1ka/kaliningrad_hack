@@ -61,6 +61,33 @@
 
 Скачайте веса из гугл диска в папку new_back/hope_bert
 
-`docker compose up`
+Фронтент:
+
+```bash
+Перейдите в директорию front/kali_front
+
+docker build --tag 'front' .
+docker run -p 0.0.0.0:5173:5173 front
+```
+
+Бекенд:
+
+```
+Перейдите в директорию new_back
+Убедитесь, что в этой директории находится папка hope_bert
+
+требуется python3.10
+
+python3.10 -m venv venv
+source ./venv/bin/activate
+
+python -m pip install -r requirements.txt
+
+uvicorn main:app --host 0.0.0.0 --port 8000
+```
 
 Перейдите в браузер [http://localhost:5173](http://localhost:5173)
+
+Или зайдите на уже запущенный сервер
+
+http://213.171.28.36:5173/
