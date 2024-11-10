@@ -6,7 +6,7 @@
     ></CreateVacancyComponent>
 
     <div class="input-group mb-3" style="margin-top: 2em">
-      <input type="text" class="form-control" placeholder="Поиск" name="filter" v-model="this.filter"/>
+      <input type="text" class="form-control" placeholder="Поиск" name="filter" v-model="filter"/>
       <div class="input-group-append">
         <button @click="searchByFilter" class="btn btn-outline-secondary" type="button">
           Найти
@@ -24,7 +24,7 @@
         class="col-2"
         width="128px"
         height="128px"
-        :src="'http://0.0.0.0:8000/static/assets/' + user.verdict + '.svg'"
+        :src="'http://213.171.28.36:8000/static/assets/' + user.verdict + '.svg'"
       />
       <PlotlyChart
         style="min-width: 250px; min-height: 250px"
