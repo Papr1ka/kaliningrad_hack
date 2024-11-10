@@ -78,7 +78,7 @@ async def create_user_view(
         "plot": plot,
         "vacancies": vacancies,
         "verdict": nbti_tag,
-        "nbti": NBTI_TO_TITLE[nbti_tag.upper()],
+        "nbti": f"{nbti_tag}, {NBTI_TO_TITLE[nbti_tag.upper()]}",
         "holland": ocean_to_holland_codes(ocean_vector)
     }
 
@@ -115,7 +115,7 @@ async def get_users_view(session: Annotated[AsyncSession, Depends(session_depend
             "plot": plot,
             "vacancies": vacancies,
             "verdict": nbti_tag,
-            "nbti": NBTI_TO_TITLE[nbti_tag.upper()],
+            "nbti": f"{nbti_tag}, {NBTI_TO_TITLE[nbti_tag.upper()]}",
             "holland": ocean_to_holland_codes(ocean_vector)
         })
     return {
@@ -159,7 +159,7 @@ async def get_vacancies_view(session: Annotated[AsyncSession, Depends(session_de
             "plot": plot,
             "users": users,
             "verdict": nbti_tag,
-            "nbti": NBTI_TO_TITLE[nbti_tag.upper()],
+            "nbti": f"{nbti_tag}, {NBTI_TO_TITLE[nbti_tag.upper()]}",
             "holland": ocean_to_holland_codes(ocean_vector)
         })
     return {
@@ -202,6 +202,6 @@ async def create_vacancy_view(name: Annotated[str, Form()],
         "plot": plot,
         "users": [],
         "verdict": nbti_tag,
-        "nbti": NBTI_TO_TITLE[nbti_tag.upper()],
+        "nbti": f"{nbti_tag}, {NBTI_TO_TITLE[nbti_tag.upper()]}",
         "holland": ocean_to_holland_codes(ocean_vector)
     }
