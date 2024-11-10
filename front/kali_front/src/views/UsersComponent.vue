@@ -6,7 +6,7 @@
     ></CreateVacancyComponent>
 
     <div class="input-group mb-3" style="margin-top: 2em">
-      <input type="text" class="form-control" placeholder="Поиск" name="filter" />
+      <input type="text" class="form-control" placeholder="Поиск" name="filter" v-model="filter"/>
       <div class="input-group-append">
         <button @click="searchByFilter" class="btn btn-outline-secondary" type="button">
           Найти
