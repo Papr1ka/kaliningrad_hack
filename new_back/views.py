@@ -15,7 +15,7 @@ import numpy as np
 from full_pipeline import generate_features
 
 from get_plots import get_ocean_plot
-from search_faiss import find_simmilar
+from search_faiss import find_simmilar, add
 
 router = APIRouter(prefix="/api", tags=["api"])
 
@@ -189,6 +189,8 @@ async def create_vacancy_view(name: Annotated[str, Form()],
         'conscientiousness': ocean.conscientiousness,
         'openness': ocean.openness,
     }
+
+    add(vacancy.id, np.array(list(features_dict.values())))
 
     plot = get_ocean_plot(features_dict)
     ocean_vector = list(features_dict.values())

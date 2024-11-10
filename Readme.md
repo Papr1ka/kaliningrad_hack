@@ -27,13 +27,13 @@
 ├── docker-compose.yml
 ├── front                       -- Фронтенд
 │   └── kali_front
-├── hope_bert                   -- Так будут выглядеть веса для регрессора после распаковки 
-│   ├── hope
-│   ├── special_tokens_map.json
-│   ├── tokenizer_config.json
-│   ├── tokenizer.json
-│   └── vocab.txt
 ├── new_back                    -- Бекенд
+│   └─ hope_bert                   -- Так будут выглядеть веса для регрессора после распаковки 
+│       ├── hope
+│       ├── special_tokens_map.json
+│       ├── tokenizer_config.json
+│       ├── tokenizer.json
+│       └── vocab.txt
 │   ├── config.py
 │   ├── db.py
 │   ├── dependencies.py
@@ -58,6 +58,8 @@
 ```
 
 ### Запуск
+
+Скачайте веса из гугл диска в папку new_back/hope_bert
 
 `docker compose up`
 
