@@ -3,6 +3,7 @@ from typing import List
 import aiofiles
 from fastapi import UploadFile
 from sqlmodel import select, func, col
+from time import time
 
 from models import User, Vacancy, Video
 # from .schemas import CreateProfile, CreateVacancy, UpdateOCEAN, UpdateProfile, UpdateUser, UpdateVacancy
@@ -42,7 +43,7 @@ from config import settings
 #     return profile
 
 def get_file_path(user_id: int, filename: str):
-    return os.path.join(settings.static_dir_path, f"{user_id}_{filename}")
+    return os.path.join(settings.static_dir_path, f"{user_id}_{time()}_{filename}")
 
 async def save_video(video_file: UploadFile, full_path) -> None:
     async with aiofiles.open(full_path, "wb") as out_file:

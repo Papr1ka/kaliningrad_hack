@@ -335,24 +335,3 @@ def ocean_to_holland_codes(data):
     holland_scores['Conventional'] = (data[3] + (1 - data[4])) / 2
 
     return max(holland_scores)
-
-
-
-# file_path = 'train_dataset_vprod_encr_train/transcription/transcription_validation.pkl'
-# all_videos(file_path)
-# video_path = 'train_dataset_vprod_encr_train/train_data/ZXeO5dRFrj0.005.mp4'
-# transcription_file = 'train_dataset_vprod_encr_train/annotation/annotation_validation.csv'
-#
-# #video_path = 'train_dataset_vprod_encr_train/train_data/_01AyUz9J9I.002.mp4'
-# start_time = time.time()
-#
-# caption = generate_features(video_path)
-# print(caption)
-# print("Время выполнения", time.time() - start_time)
-#
-# video_path = 'train_dataset_vprod_encr_train/train_data/_01AyUz9J9I.002.mp4'
-# start_time = time.time()
-#
-# caption = generate_features(video_path)
-# print(caption)
-# print("Время выполнения", time.time() - start_time)
