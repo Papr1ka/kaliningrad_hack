@@ -10,6 +10,8 @@ else:
     DB_PATH = "./db.sqlite3"
     WEIGHTS_PATH = "/weights"
 
+print(DB_PATH)
+
 class DBSettings(BaseModel):
     url: str = f"sqlite+aiosqlite:///{DB_PATH}"
     url_sync: str = f"sqlite:///{DB_PATH}"
