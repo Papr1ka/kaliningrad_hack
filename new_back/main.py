@@ -5,6 +5,7 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 from views import router as views_router
 from config import settings
+import full_pipeline
 
 app = FastAPI()
 
