@@ -13,7 +13,4 @@ VOLUME [ "/weights" ]
 EXPOSE 8000
 ENV mode=prod
 
-RUN cd /back/app && \
-    python /back/app/test_add.py
-
 CMD [ "fastapi", "run", "app/main.py"]

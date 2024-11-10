@@ -8,7 +8,7 @@ if os.environ.get("mode", "dev") == 'prod':
     WEIGHTS_PATH = "hope_bert"
 else:
     DB_PATH = "./db.sqlite3"
-    WEIGHTS_PATH = "/weights"
+    WEIGHTS_PATH = "weights"
 
 print(DB_PATH)
 
