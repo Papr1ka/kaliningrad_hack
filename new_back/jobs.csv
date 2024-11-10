@@ -1,0 +1,501 @@
+,vacancy,extraversion,neuroticism,agreeableness,conscientiousness,openness
+0,Software Engineer,0.34,0.33,0.09,0.59,0.47
+1,Data Scientist,0.13,0.25,0.46,0.53,0.16
+2,Product Manager,0.05,0.59,0.94,0.91,0.67
+3,Graphic Designer,0.3,0.68,0.27,0.82,0.51
+4,Marketing Specialist,0.45,0.1,0.79,0.5,0.34
+5,Sales Representative,0.62,0.8,0.95,0.29,0.89
+6,HR Manager,0.91,0.63,0.94,0.25,0.87
+7,Project Coordinator,0.06,0.55,0.05,0.47,0.56
+8,DevOps Engineer,0.93,0.45,0.59,0.51,0.04
+9,Business Analyst,0.54,0.7,0.14,0.9,0.35
+10,Web Developer,0.07,0.31,0.71,0.4,0.33
+11,Data Analyst,0.73,0.52,0.56,0.24,0.91
+12,UIUX Designer,0.86,0.28,0.78,0.97,0.71
+13,Network Administrator,0.72,0.45,0.51,0.26,0.76
+14,System Architect,0.86,0.4,0.09,0.01,0.07
+15,Mobile Developer,0.48,0.49,0.24,0.63,0.08
+16,Content Writer,0.53,0.8,0.0,0.69,0.42
+17,SEO Specialist,0.5,0.43,0.53,0.95,0.91
+18,Database Administrator,0.11,0.45,0.23,0.31,0.61
+19,Cloud Engineer,0.76,0.92,0.11,0.66,0.21
+20,DevSecOps Engineer,0.27,0.58,0.73,0.63,0.26
+21,IT Support Specialist,0.73,0.17,0.91,0.13,0.3
+22,Digital Marketing Manager,0.63,0.89,0.14,0.46,0.29
+23,FrontEnd Developer,0.08,0.4,0.09,0.24,0.75
+24,BackEnd Developer,0.93,0.41,0.89,0.71,0.14
+25,FullStack Developer,0.95,0.99,0.09,0.25,0.75
+26,Machine Learning Engineer,0.63,0.04,0.83,0.61,0.27
+27,Cybersecurity Analyst,0.32,0.08,0.56,0.12,0.26
+28,Systems Analyst,0.84,0.34,0.29,0.68,0.09
+29,Quality Assurance Tester,0.03,0.4,0.07,0.55,0.65
+30,Game Developer,0.71,0.51,0.64,0.53,0.15
+31,Research Scientist,0.73,0.2,0.16,0.02,0.75
+32,Brand Manager,0.99,0.48,0.29,1.0,0.71
+33,Social Media Manager,0.38,0.72,0.68,0.68,0.21
+34,Ecommerce Specialist,0.46,0.43,0.36,0.49,0.3
+35,User Researcher,0.8,0.46,0.24,0.36,0.33
+36,Technical Writer,0.03,0.35,0.29,0.52,0.95
+37,Event Coordinator,0.86,0.15,0.11,0.31,0.11
+38,Copywriter,0.73,0.5,0.82,0.2,0.67
+39,Video Producer,0.18,0.55,1.0,0.95,0.99
+40,SEO Analyst,0.23,0.32,0.18,0.31,0.93
+41,Data Engineer,0.19,0.11,0.5,0.87,0.32
+42,Cloud Solutions Architect,0.31,0.99,0.38,0.29,0.84
+43,Application Support Analyst,0.95,0.33,0.05,0.92,0.16
+44,IT Project Manager,0.78,0.94,0.34,0.28,0.11
+45,Business Development Executive,0.45,0.25,0.16,0.64,0.41
+46,Financial Analyst,0.28,0.53,0.74,0.19,0.85
+47,Compliance Officer,0.24,0.68,0.56,0.46,0.72
+48,Operations Manager,0.49,0.23,0.69,0.19,0.91
+49,Supply Chain Analyst,0.56,0.21,0.36,0.45,0.77
+50,Product Designer,0.77,1.0,0.56,0.12,0.89
+51,Sales Engineer,0.54,0.05,0.13,0.77,0.57
+52,Risk Analyst,0.39,0.05,0.97,0.67,0.19
+53,Market Research Analyst,0.39,0.02,0.39,0.72,0.56
+54,Network Engineer,0.46,0.72,0.96,0.76,0.54
+55,IT Consultant,0.28,0.64,0.82,0.99,0.54
+56,Business Intelligence Analyst,0.82,0.94,0.16,0.49,0.57
+57,Scrum Master,0.95,0.17,0.74,0.55,0.2
+58,Agile Coach,0.88,0.65,0.48,0.88,0.67
+59,Customer Success Manager,0.08,0.49,0.27,0.2,0.61
+60,Account Executive,0.05,0.92,0.26,0.74,0.53
+61,Payroll Specialist,0.47,0.16,0.64,0.92,0.58
+62,Benefits Coordinator,0.77,0.25,0.06,0.5,0.02
+63,Training Specialist,0.33,0.59,0.53,0.54,0.99
+64,Talent Acquisition Specialist,0.1,0.68,0.36,0.43,0.26
+65,Organizational Development Consultant,0.13,0.81,0.65,0.34,0.25
+66,Public Relations Specialist,0.69,0.02,0.85,0.7,0.6
+67,Corporate Communications Manager,0.62,0.41,0.45,0.67,0.09
+68,Creative Director,0.7,0.29,0.07,0.44,0.73
+69,Art Director,0.91,0.67,0.65,0.2,0.2
+70,Fashion Designer,0.04,0.22,0.76,0.16,0.46
+71,Interior Designer,0.15,0.41,0.33,0.55,0.17
+72,Landscape Architect,0.58,0.91,0.28,0.85,0.46
+73,Video Game Tester,0.63,0.6,0.99,0.68,0.19
+74,Mobile App Tester,0.53,0.17,0.16,0.97,0.19
+75,Automation Engineer,0.33,0.42,0.17,0.22,0.23
+76,Robotics Engineer,0.23,0.05,0.14,0.97,0.61
+77,Blockchain Developer,0.0,0.92,0.23,0.31,0.13
+78,Cryptocurrency Analyst,0.46,0.65,0.73,0.06,0.7
+79,Data Privacy Officer,0.84,0.47,0.8,0.41,0.72
+80,IT Auditor,0.15,0.33,0.75,0.04,0.44
+81,Help Desk Technician,0.13,0.4,0.47,0.63,0.87
+82,Technical Support Engineer,0.52,0.72,0.77,0.7,0.82
+83,Network Security Engineer,0.14,0.77,0.66,0.68,0.21
+84,Penetration Tester,0.83,0.79,0.92,0.11,0.33
+85,Incident Response Specialist,0.72,0.26,0.81,0.62,0.68
+86,Forensic Analyst,0.26,0.81,0.39,0.39,0.06
+87,Digital Forensics Expert,0.48,0.2,0.65,0.21,0.12
+88,Cloud Security Specialist,0.61,0.63,0.49,0.86,0.46
+89,Identity and Access Management Analyst,0.97,0.6,0.34,0.92,0.6
+90,Compliance Analyst,0.11,0.45,0.54,0.46,0.67
+91,Fraud Investigator,0.18,0.13,0.55,0.39,0.87
+92,Loss Prevention Specialist,0.23,0.61,0.96,0.78,0.78
+93,Security Consultant,0.07,0.49,0.82,0.74,0.22
+94,Disaster Recovery Specialist,0.3,0.5,0.29,1.0,0.79
+95,Business Continuity Planner,0.88,0.95,0.44,0.95,0.61
+96,UX Researcher,0.44,0.08,0.6,0.84,0.39
+97,Interaction Designer,0.39,0.34,0.9,0.83,0.47
+98,Service Designer,0.28,0.12,0.35,0.94,0.36
+99,Product Marketing Manager,0.51,0.33,0.65,0.77,0.99
+100,Data Governance Specialist,0.82,0.37,0.34,0.71,0.52
+101,Cloud Operations Engineer,0.86,0.18,0.26,0.2,0.53
+102,IT Asset Manager,0.06,0.36,0.48,0.69,0.08
+103,Software Quality Engineer,0.43,0.87,0.78,0.77,0.26
+104,Performance Tester,0.3,0.47,0.08,0.56,0.99
+105,Load Tester,0.96,0.48,0.15,0.55,0.8
+106,Cyber Threat Intelligence Analyst,0.84,0.41,0.72,0.46,0.9
+107,Data Warehouse Developer,0.08,0.17,0.08,0.29,0.12
+108,BI Developer,0.91,0.7,0.95,0.55,0.72
+109,Data Visualization Specialist,0.95,0.74,0.68,0.87,0.08
+110,Data Quality Analyst,0.27,0.29,0.27,0.32,0.12
+111,Data Steward,0.57,0.55,0.43,0.33,0.46
+112,Data Architect,0.38,0.4,0.0,0.6,0.06
+113,Network Operations Center Technician,0.99,0.94,0.53,0.54,0.48
+114,Telecommunications Specialist,0.17,0.16,0.12,0.27,0.53
+115,VoIP Engineer,0.19,0.98,0.66,0.32,0.9
+116,Field Service Technician,0.5,0.09,0.26,0.43,0.58
+117,Desktop Support Technician,0.77,0.37,0.32,0.05,0.61
+118,IT Trainer,0.53,0.86,0.03,0.24,0.38
+119,Learning and Development Manager,0.99,0.75,0.47,0.63,0.74
+120,Change Management Consultant,0.77,0.94,0.9,0.48,0.5
+121,Organizational Change Manager,0.51,0.31,0.22,0.39,0.26
+122,Employee Relations Specialist,0.64,0.27,0.71,0.91,0.77
+123,Labor Relations Manager,0.95,0.38,0.67,0.62,0.1
+124,Diversity and Inclusion Officer,0.43,0.57,0.96,0.62,0.54
+125,Compensation Analyst,0.05,0.9,0.36,0.07,0.68
+126,Talent Management Consultant,0.24,0.66,0.13,0.94,0.33
+127,Learning Experience Designer,0.46,0.04,0.73,0.22,0.6
+128,Instructional Designer,0.26,0.18,0.25,0.28,0.23
+129,Curriculum Developer,0.74,0.0,0.96,0.2,0.13
+130,Public Affairs Specialist,0.84,0.13,0.19,0.38,0.64
+131,Community Relations Coordinator,0.25,0.96,0.2,0.73,0.96
+132,Grant Writer,0.83,0.66,0.94,0.46,0.9
+133,Nonprofit Program Manager,0.53,0.97,0.67,0.14,0.92
+134,Fundraising Coordinator,0.59,0.96,0.75,0.39,0.32
+135,Membership Coordinator,0.41,0.84,0.82,0.28,0.89
+136,Advocacy Coordinator,0.57,0.13,0.38,0.9,0.65
+137,Policy Analyst,0.43,0.65,0.48,0.58,0.4
+138,Environmental Scientist,0.17,0.29,0.0,0.16,0.12
+139,Urban Planner,0.04,0.34,0.41,0.15,0.76
+140,Transportation Planner,0.08,0.08,0.55,0.63,0.09
+141,Civil Engineer,0.68,0.45,0.04,0.18,0.04
+142,Structural Engineer,0.55,0.55,0.57,0.43,0.93
+143,Mechanical Engineer,0.26,0.52,0.19,0.34,0.17
+144,Electrical Engineer,0.37,0.12,0.37,0.51,0.37
+145,Manufacturing Engineer,0.1,0.12,0.46,0.57,0.3
+146,Quality Control Inspector,0.84,0.1,0.95,0.4,0.28
+147,Lean Six Sigma Consultant,0.92,0.69,0.6,0.01,0.91
+148,Process Improvement Specialist,0.56,0.23,0.67,0.14,0.39
+149,Supply Chain Manager,0.57,0.66,0.97,0.09,0.45
+150,Sourcing Specialist,0.77,0.48,0.3,0.29,0.94
+151,Purchasing Agent,0.73,0.58,0.74,0.81,0.83
+152,Logistics Coordinator,0.56,0.25,0.41,0.18,0.7
+153,Fleet Manager,0.15,0.87,0.48,0.38,0.94
+154,Warehouse Manager,0.4,0.61,0.6,1.0,0.78
+155,Inventory Control Specialist,0.29,0.67,0.47,0.26,0.17
+156,Fulfillment Center Manager,0.69,0.31,0.69,0.21,0.51
+157,Order Processing Specialist,0.17,0.51,0.67,0.72,0.48
+158,Customer Service Representative,0.93,0.37,0.36,0.67,0.51
+159,Call Center Manager,0.42,0.05,0.48,0.7,1.0
+160,Client Relations Specialist,0.49,0.26,0.46,0.77,0.12
+161,Account Coordinator,0.57,0.85,0.76,0.45,0.09
+162,Marketing Coordinator,0.08,0.59,0.19,0.6,1.0
+163,Content Marketing Strategist,0.99,0.37,0.91,0.97,0.1
+164,Email Marketing Specialist,0.39,0.04,0.86,0.55,0.39
+165,Digital Advertising Specialist,0.05,0.47,0.32,0.48,0.75
+166,Paid Media Specialist,0.05,0.01,0.9,0.49,0.98
+167,Affiliate Marketing Manager,0.68,0.98,0.29,0.67,0.47
+168,PPC Analyst,0.64,0.39,0.76,0.24,0.05
+169,Social Media Strategist,0.51,0.93,0.65,0.3,0.12
+170,Influencer Marketing Manager,0.18,0.21,0.92,0.88,0.31
+171,Brand Strategist,0.86,0.37,0.13,0.2,0.76
+172,Product Copywriter,0.36,0.87,0.12,0.77,0.44
+173,Speechwriter,0.44,0.46,0.08,0.41,0.38
+174,Public Speaking Coach,0.77,0.64,0.66,0.02,0.68
+175,Voiceover Artist,0.0,0.89,0.43,0.38,0.17
+176,Audio Engineer,0.28,0.9,0.93,0.32,0.88
+177,Sound Designer,0.18,0.91,0.17,0.57,0.53
+178,Music Producer,0.95,0.72,0.29,0.47,0.17
+179,Composer,0.84,0.65,0.22,0.63,0.35
+180,Film Director,0.62,0.73,0.18,0.85,0.2
+181,Film Editor,0.53,0.9,0.53,0.81,0.48
+182,Cinematographer,0.19,0.59,0.77,0.29,0.62
+183,Script Supervisor,0.27,0.61,0.82,0.65,0.55
+184,Storyboard Artist,0.52,0.55,0.06,0.16,0.28
+185,Set Designer,0.12,0.19,0.0,0.35,0.24
+186,Costume Designer,0.17,0.61,0.55,0.12,0.4
+187,Makeup Artist,0.64,0.36,0.47,0.71,0.24
+188,Hair Stylist,0.91,0.89,0.56,0.12,0.29
+189,Visual Effects Artist,0.61,0.01,0.22,0.21,0.69
+190,Animation Director,0.67,0.91,0.56,0.74,0.83
+191,Character Animator,0.37,0.59,0.05,0.38,0.23
+192,Graphic Novelist,0.65,0.02,0.29,0.96,0.02
+193,Comic Book Artist,0.63,0.15,0.77,0.84,0.84
+194,Illustrator,0.26,0.87,0.61,0.24,0.49
+195,Concept Artist,0.68,0.69,0.16,0.23,0.16
+196,Game Designer,0.88,0.1,0.53,0.72,0.7
+197,Level Designer,0.44,0.33,0.25,0.02,0.18
+198,Game Producer,0.8,0.69,0.49,0.97,0.33
+199,Esports Manager,0.86,0.15,0.77,0.41,0.89
+200,Athletic Trainer,0.64,0.43,0.8,0.15,0.48
+201,Personal Trainer,0.75,0.2,0.96,0.62,0.17
+202,Fitness Instructor,0.04,0.89,0.29,0.44,0.81
+203,Yoga Instructor,0.5,0.01,0.03,0.65,0.25
+204,Pilates Instructor,0.92,0.82,0.6,0.53,0.41
+205,Nutritionist,0.01,0.83,0.15,0.67,0.84
+206,Dietitian,0.14,0.77,0.9,0.44,0.15
+207,Chef,0.81,0.99,0.39,0.48,0.51
+208,Baker,0.85,0.24,0.97,0.06,0.46
+209,Restaurant Manager,0.02,0.92,0.02,0.17,0.82
+210,Hotel Manager,0.07,0.96,0.99,0.47,0.84
+211,Event Planner,0.17,0.05,0.12,0.23,0.86
+212,Conference Coordinator,0.35,0.43,0.04,0.35,0.49
+213,Travel Agent,0.1,0.79,0.11,0.1,0.64
+214,Tour Guide,0.3,1.0,0.66,0.67,0.02
+215,Hospitality Consultant,0.17,0.56,0.22,0.47,0.18
+216,Food and Beverage Director,0.2,0.3,0.28,0.21,0.51
+217,Catering Manager,0.03,0.79,0.89,0.99,0.34
+218,Banquet Coordinator,0.76,0.8,0.63,0.88,0.55
+219,Catering Sales Manager,0.84,0.52,0.16,0.04,0.67
+220,Beverage Manager,0.16,0.74,0.32,0.63,0.45
+221,Wine Steward,0.75,0.69,0.98,0.2,0.92
+222,Sommelier,0.18,0.32,0.19,0.23,0.55
+223,Barista,0.75,0.34,0.31,0.95,0.49
+224,Bartender,0.51,0.03,0.15,0.28,0.85
+225,Cocktail Server,0.94,0.02,0.37,0.61,0.45
+226,HostHostess,0.25,0.12,0.95,0.02,0.23
+227,Waitstaff Supervisor,0.62,0.5,0.7,0.26,0.78
+228,Line Cook,0.07,0.55,0.93,0.03,0.6
+229,Preparation Cook,0.58,0.58,0.19,0.5,0.82
+230,Dishwasher,0.43,0.87,0.41,1.0,0.79
+231,Food Runner,0.36,0.79,0.61,0.37,0.85
+232,Kitchen Porter,0.27,0.75,0.29,0.15,0.99
+233,Sous Chef,0.4,0.85,0.62,0.15,0.17
+234,Executive Chef,0.86,0.58,0.62,0.72,0.27
+235,Culinary Instructor,0.47,0.43,0.35,0.1,0.05
+236,Food Stylist,0.84,0.22,0.71,0.94,0.9
+237,Food Photographer,0.95,0.35,0.36,0.4,0.67
+238,Food Blogger,0.32,0.5,0.0,0.61,0.78
+239,Food Critic,0.48,0.39,0.48,0.21,0.14
+240,Librarian,0.92,0.27,0.6,0.83,0.07
+241,Library Assistant,0.23,0.09,0.24,0.91,0.18
+242,Archivist,0.41,0.79,0.95,0.5,0.58
+243,Museum Curator,0.15,0.09,0.35,0.64,0.2
+244,Gallery Director,0.4,0.42,0.69,0.26,0.15
+245,Art Restorer,0.75,0.43,0.34,0.46,0.95
+246,Historian,0.8,0.44,0.13,0.25,0.87
+247,Anthropologist,0.81,0.41,0.02,0.91,0.96
+248,Archaeologist,0.38,0.04,0.23,0.25,0.06
+249,Sociologist,0.39,0.74,0.75,0.55,0.96
+250,Psychologist,0.05,0.93,0.2,0.06,0.34
+251,Counselor,0.05,0.53,0.71,0.7,0.49
+252,Therapist,0.78,0.53,0.53,0.91,0.94
+253,Social Worker,0.94,0.3,0.01,0.97,0.63
+254,Addiction Counselor,0.87,0.46,0.71,0.45,0.41
+255,Marriage and Family Therapist,0.74,0.9,0.97,0.29,0.97
+256,Rehabilitation Counselor,0.2,0.3,0.07,0.26,0.06
+257,School Psychologist,0.39,0.2,0.82,0.88,0.96
+258,Career Counselor,0.06,0.48,0.67,0.59,0.21
+259,Educational Consultant,0.32,0.23,0.14,0.81,0.68
+260,Special Education Teacher,0.7,0.22,0.19,0.6,0.16
+261,Teaching Assistant,0.53,0.5,0.63,0.8,0.68
+262,Substitute Teacher,0.95,0.65,0.01,0.26,0.92
+263,Online Tutor,0.05,0.95,0.01,0.99,1.0
+264,Language Instructor,0.85,0.94,0.15,0.9,0.52
+265,Music Teacher,0.73,0.25,0.68,0.23,0.72
+266,Art Teacher,0.63,0.67,0.28,0.62,0.13
+267,Physical Education Teacher,0.87,0.8,0.83,0.85,0.92
+268,Science Teacher,0.95,0.35,0.14,0.22,0.91
+269,Math Teacher,0.45,0.97,0.33,0.89,0.78
+270,History Teacher,0.48,0.68,0.54,0.44,0.84
+271,Computer Science Teacher,0.07,0.75,0.11,0.77,0.78
+272,Gifted Education Teacher,0.96,0.93,0.98,0.6,0.79
+273,Curriculum Coordinator,0.92,0.01,0.82,0.41,0.32
+274,Principal,0.59,0.74,0.9,0.03,0.73
+275,Assistant Principal,0.18,0.55,0.4,0.08,0.47
+276,Dean of Students,0.65,0.41,0.4,0.21,0.2
+277,School Administrator,0.45,0.45,0.94,0.23,0.62
+278,Educational Policy Analyst,0.01,0.31,0.39,0.39,0.72
+279,Educational Researcher,0.51,0.29,0.8,0.22,0.16
+280,Chemical Engineer,0.24,0.17,0.89,0.33,0.43
+281,Biomedical Engineer,0.08,0.38,0.18,0.37,0.23
+282,Aerospace Engineer,0.76,0.76,0.55,0.97,0.14
+283,Nuclear Engineer,0.17,0.16,0.37,0.71,1.0
+284,Petroleum Engineer,0.56,0.33,0.98,0.71,0.72
+285,Mining Engineer,0.1,0.11,0.61,0.79,0.27
+286,Geotechnical Engineer,0.44,0.13,0.3,0.28,0.75
+287,Environmental Engineer,0.92,0.49,0.41,0.06,0.56
+288,Energy Consultant,0.18,0.04,0.21,0.13,0.46
+289,Renewable Energy Specialist,0.18,0.74,0.2,0.22,0.91
+290,Sustainability Consultant,0.08,0.76,0.85,0.9,0.84
+291,Clean Energy Advocate,0.62,0.26,0.97,0.55,0.17
+292,Energy Auditor,0.46,0.62,0.69,0.91,0.6
+293,Energy Efficiency Consultant,0.5,0.94,0.73,0.18,0.61
+294,Green Building Consultant,0.9,0.47,0.95,0.47,0.11
+295,Carbon Footprint Analyst,0.91,0.91,0.35,0.81,0.92
+296,Life Cycle Assessment Specialist,0.81,0.9,0.77,0.45,0.76
+297,Water Resource Engineer,0.19,0.16,0.73,0.25,0.29
+298,Waste Management Specialist,0.67,0.98,1.0,0.22,0.05
+299,Recycling Coordinator,0.35,0.96,0.65,0.38,0.04
+300,Hazardous Waste Manager,0.87,0.01,0.47,0.8,0.8
+301,Environmental Compliance Specialist,0.88,0.34,0.74,0.69,0.19
+302,Environmental Health and Safety Officer,0.72,0.32,0.67,0.98,0.22
+303,Occupational Health and Safety Specialist,0.98,0.53,0.96,0.26,0.9
+304,Emergency Management Specialist,0.07,0.97,0.91,0.77,0.63
+305,Disaster Response Coordinator,0.7,0.74,0.48,0.7,0.22
+306,Public Health Educator,0.74,0.5,0.06,0.16,0.59
+307,Healthcare Administrator,0.77,0.79,0.73,0.86,0.2
+308,Hospital Operations Manager,0.78,0.66,0.58,0.22,0.03
+309,Medical Office Manager,0.22,0.76,0.02,0.86,0.74
+310,Nurse Practitioner,0.63,0.71,0.36,0.91,0.62
+311,Physician Assistant,0.67,0.73,0.45,0.92,0.36
+312,Physician,0.53,0.67,0.91,0.71,0.71
+313,Surgeon,0.08,0.47,0.62,0.4,0.87
+314,Dentist,0.54,0.35,0.72,0.46,0.41
+315,Pharmacist,0.61,0.51,0.64,0.94,0.83
+316,Veterinarian,0.8,0.11,0.94,0.13,0.24
+317,Chiropractor,0.97,0.85,0.42,0.33,0.43
+318,Physical Therapist,0.1,0.58,0.21,0.41,0.77
+319,Occupational Therapist,0.04,0.46,0.35,0.94,0.14
+320,SpeechLanguage Pathologist,0.19,0.62,0.26,0.97,0.68
+321,Radiologic Technologist,0.07,0.96,0.3,0.12,0.86
+322,Medical Laboratory Technician,0.38,0.18,0.91,0.58,0.58
+323,Emergency Medical Technician EMT,0.05,0.57,0.86,0.91,0.54
+324,Paramedic,0.77,0.6,0.27,0.3,0.46
+325,Patient Care Technician,0.83,0.15,0.66,0.35,0.74
+326,Medical Billing Specialist,0.93,0.98,0.88,0.52,0.86
+327,Medical Coder,0.57,0.06,0.14,0.47,0.33
+328,Health Information Technician,0.37,0.55,0.04,0.27,0.85
+329,Healthcare Compliance Officer,0.12,0.46,0.83,0.52,0.72
+330,Healthcare Quality Improvement Specialist,0.65,0.75,0.82,0.59,0.44
+331,Population Health Manager,0.56,0.47,0.23,0.61,0.33
+332,Claims Adjuster,0.49,0.14,0.56,0.89,0.95
+333,Life Insurance Underwriter,0.19,0.3,0.1,0.82,0.22
+334,Property Insurance Underwriter,0.68,0.33,0.75,0.47,0.04
+335,Claims Examiner,0.21,0.35,0.56,0.78,0.35
+336,Loss Control Consultant,0.03,0.66,0.34,0.56,0.36
+337,Risk Management Consultant,0.82,0.23,0.19,0.92,0.43
+338,Financial Planner,0.13,0.11,0.83,0.26,0.75
+339,Investment Advisor,0.67,0.07,0.73,0.27,0.01
+340,Stockbroker,0.84,0.72,0.75,0.67,0.34
+341,Trader,0.36,0.12,0.97,0.98,0.0
+342,Portfolio Manager,0.48,0.94,0.94,0.7,0.19
+343,Asset Manager,0.24,0.84,0.64,0.95,0.13
+344,Mutual Fund Analyst,0.53,0.69,0.96,0.9,0.21
+345,Investment Banking Analyst,0.12,0.37,0.99,0.57,0.05
+346,Mergers and Acquisitions Analyst,0.95,0.81,0.48,0.2,0.69
+347,Private Equity Associate,0.04,0.08,0.04,0.46,0.08
+348,Venture Capital Analyst,0.41,0.18,0.42,0.65,0.12
+349,Real Estate Analyst,0.93,0.56,0.03,0.6,0.36
+350,Property Manager,0.17,0.58,0.84,0.3,0.59
+351,Construction Project Manager,0.57,0.49,0.62,0.21,0.94
+352,Estimator,0.11,0.72,0.94,0.77,0.62
+353,Quantity Surveyor,0.39,0.54,0.62,0.2,0.46
+354,Site Supervisor,0.44,0.99,0.46,0.59,0.75
+355,Construction Safety Officer,0.28,0.24,0.48,0.53,0.49
+356,Demolition Supervisor,0.81,0.84,0.72,0.31,0.7
+357,Building Inspector,0.81,0.8,0.1,0.45,0.28
+358,Facilities Manager,0.08,0.74,0.96,0.93,0.72
+359,Maintenance Technician,0.96,0.58,0.25,0.48,0.41
+360,Air Conditioning Technician,0.17,0.86,0.85,0.54,0.26
+361,Plumber,0.97,0.48,0.53,0.47,0.67
+362,Electrician,0.71,0.06,0.6,0.83,0.88
+363,HVAC Technician,0.99,0.15,1.0,0.21,0.1
+364,Roofer,0.32,0.49,0.9,0.63,0.76
+365,Carpenter,0.31,0.75,0.97,0.19,0.75
+366,Drywall Installer,0.33,0.58,0.48,0.29,0.69
+367,Painter,0.2,0.93,0.88,0.14,0.07
+368,Landscaper,0.55,0.58,0.61,0.9,0.45
+369,Gardener,0.99,0.39,0.95,0.55,0.88
+370,Tree Surgeon,0.47,0.58,1.0,0.24,0.46
+371,Horticulturist,0.6,0.35,0.01,0.25,0.89
+372,Agricultural Scientist,0.76,0.21,0.68,0.15,0.04
+373,Animal Scientist,0.67,0.72,0.23,0.18,0.91
+374,Food Scientist,0.22,0.98,0.88,0.31,0.83
+375,Veterinary Technician,0.26,0.2,0.68,0.97,0.33
+376,Zoologist,0.92,0.45,0.45,0.12,0.26
+377,Wildlife Biologist,0.25,0.44,0.54,0.29,0.14
+378,Conservation Scientist,0.71,0.81,0.28,0.66,0.23
+379,Forester,0.91,0.87,0.07,0.72,0.44
+380,Fishery Biologist,0.07,0.78,0.28,0.07,0.09
+381,Oceanographer,0.8,0.61,0.65,0.03,0.88
+382,Marine Biologist,0.98,0.73,0.03,0.4,0.4
+383,Aquatic Ecologist,0.36,0.29,0.6,0.24,0.23
+384,Environmental Educator,0.9,0.32,0.04,0.47,0.74
+385,Ecological Restoration Specialist,0.85,0.16,0.43,0.46,0.39
+386,Clean Water Advocate,1.0,0.15,0.46,0.55,0.85
+387,Air Quality Specialist,0.48,0.4,0.58,0.39,0.73
+388,Noise Control Engineer,0.76,0.85,0.65,0.7,0.96
+389,Urban Ecologist,0.84,0.66,0.17,0.81,0.67
+390,Soil Scientist,0.58,0.49,0.22,0.38,0.49
+391,Agronomist,0.26,0.5,0.08,0.69,0.88
+392,Hydrologist,0.15,0.38,0.07,0.63,0.16
+393,Climatologist,0.96,0.73,0.85,0.33,0.59
+394,Meteorologist,0.47,0.08,0.4,0.28,0.88
+395,Atmospheric Scientist,0.77,0.93,0.27,0.05,0.55
+396,Geographer,0.27,0.08,0.09,0.23,0.96
+397,Cartographer,0.26,0.18,0.75,0.61,0.31
+398,Remote Sensing Analyst,0.51,0.22,0.77,0.1,0.6
+399,GIS Analyst,0.65,0.79,0.33,0.85,0.86
+400,Data Center Technician,0.75,0.24,0.73,0.47,0.68
+401,Systems Administrator,0.99,0.89,0.26,0.22,0.12
+402,Database Developer,0.33,0.48,0.7,0.77,0.64
+403,Webmaster,0.75,0.17,0.36,0.61,0.07
+404,Web Analytics Specialist,1.0,0.99,0.4,0.05,0.65
+405,User Experience Researcher,0.48,0.84,0.18,0.46,0.23
+406,Interactive Media Designer,0.26,0.7,0.58,0.01,0.2
+407,Virtual Reality Developer,0.15,0.57,0.39,0.59,0.04
+408,Augmented Reality Developer,0.59,0.01,0.31,0.63,0.76
+409,Game Programmer,0.57,0.59,0.82,0.63,0.73
+410,Game Writer,0.17,0.33,0.81,0.21,0.01
+411,Game Artist,0.05,0.07,0.89,0.51,0.9
+412,Game Animator,0.2,0.48,0.85,0.1,0.86
+413,Game Audio Designer,0.73,0.06,0.73,0.52,0.79
+414,Game Level Designer,0.85,0.91,0.2,0.74,0.21
+415,Game Quality Assurance Tester,0.91,0.97,0.93,0.88,0.67
+416,Esports Commentator,0.0,0.06,0.17,0.66,0.66
+417,Esports Coach,0.36,0.41,0.52,0.26,0.81
+418,Esports Event Organizer,0.92,0.75,0.46,0.4,0.42
+419,Esports Player,0.31,0.27,0.93,0.81,0.05
+420,Streaming Content Creator,0.12,0.41,0.97,0.42,0.18
+421,Podcaster,0.48,0.66,0.92,0.65,0.47
+422,Blogger,0.08,0.82,0.61,1.0,0.45
+423,Vlogger,0.1,0.44,0.59,0.46,0.9
+424,Influencer,0.9,0.9,0.93,0.31,0.14
+425,Content Creator,0.17,0.51,0.05,0.67,0.66
+426,Digital Content Strategist,0.43,0.93,0.24,0.78,0.56
+427,Digital Content Producer,0.8,0.24,0.34,0.5,0.16
+428,Digital Content Editor,0.9,0.14,0.74,0.48,0.95
+429,Digital Content Marketer,0.26,0.04,0.59,0.99,0.18
+430,Online Community Manager,0.1,0.65,0.19,0.87,0.12
+431,Online Reputation Manager,0.89,0.87,0.6,0.64,0.67
+432,Brand Ambassador,0.71,0.02,0.41,0.34,0.12
+433,Public Affairs Consultant,0.97,0.87,0.2,0.79,0.12
+434,Government Affairs Director,0.83,0.11,0.62,0.77,0.56
+435,Lobbyist,0.75,0.19,0.62,0.56,0.22
+436,Political Campaign Manager,0.28,0.92,0.82,0.79,0.18
+437,Political Consultant,0.9,0.55,0.85,0.9,0.12
+438,Political Strategist,0.42,0.02,0.15,0.62,0.6
+439,Political Analyst,0.94,0.02,0.77,0.13,0.1
+440,Foreign Language Translator,0.27,0.56,0.46,0.53,0.23
+441,Foreign Language Interpreter,0.84,0.77,0.98,0.9,0.18
+442,Transcriptionist,0.29,0.41,0.26,0.89,0.04
+443,Subtitle Editor,0.02,0.96,0.36,0.91,0.08
+444,Captioning Specialist,0.62,0.34,0.71,0.59,0.25
+445,Copy Editor,0.85,0.91,0.64,0.85,0.16
+446,Proofreader,0.78,0.88,0.5,0.96,0.86
+447,Publishing Assistant,0.15,0.53,0.51,0.59,0.89
+448,Book Editor,0.51,0.76,0.58,0.58,0.96
+449,Acquisitions Editor,0.34,0.98,0.6,0.48,0.51
+450,Marketing Editor,0.94,0.73,0.36,0.39,0.37
+451,Graphic Novelist,0.35,0.61,0.43,0.66,0.26
+452,Comic Book Writer,0.02,0.91,0.66,0.65,0.71
+453,Script Writer,0.01,0.27,0.5,0.64,0.77
+454,Screenplay Writer,0.53,0.33,0.72,0.88,0.51
+455,Television Writer,0.03,0.09,0.05,0.12,0.44
+456,Radio Show Host,0.01,0.49,0.84,0.4,0.21
+457,Broadcast Journalist,0.41,0.05,0.07,0.9,0.32
+458,News Anchor,0.33,0.28,0.9,0.48,0.45
+459,News Producer,0.24,0.81,0.15,0.91,0.54
+460,Field Reporter,0.97,0.8,0.47,0.73,0.59
+461,Investigative Journalist,0.86,0.15,0.44,0.09,0.76
+462,Photojournalist,0.24,0.45,0.23,0.58,0.73
+463,Video Journalist,0.48,0.55,0.1,0.36,0.83
+464,Documentary Filmmaker,0.45,0.77,0.78,0.5,0.39
+465,Documentary Researcher,0.07,0.37,0.94,0.79,0.71
+466,Broadcast Technician,0.38,0.51,0.82,0.94,0.19
+467,Camera Operator,0.84,0.29,0.65,0.5,0.27
+468,Sound Mixer,0.95,0.63,0.88,0.52,0.04
+469,Editor,0.41,0.15,0.99,0.77,0.32
+470,Broadcast Engineer,0.4,0.51,0.56,0.42,0.42
+471,Television Production Assistant,0.9,0.99,0.95,0.11,0.66
+472,Radio Production Assistant,0.72,0.11,0.1,0.11,0.24
+473,Radio Station Manager,0.32,0.03,0.81,0.47,0.11
+474,Television Station Manager,0.19,0.22,0.85,0.04,0.98
+475,Media Relations Specialist,0.8,0.53,0.86,0.36,0.11
+476,Public Information Officer,0.76,0.98,0.78,0.61,0.58
+477,Community Outreach Coordinator,0.96,0.07,0.87,0.46,0.61
+478,Social Services Director,0.14,0.09,0.34,0.91,0.4
+479,Nonprofit Executive Director,0.63,0.68,0.62,0.12,0.92
+480,Nonprofit Fundraiser,0.32,0.94,0.51,0.4,0.4
+481,Nonprofit Grant Writer,0.41,0.34,0.46,0.26,0.43
+482,Nonprofit Program Evaluator,0.36,0.54,0.29,0.62,0.02
+483,Nonprofit Policy Advocate,0.71,0.23,0.62,0.4,0.07
+484,Nonprofit Volunteer Coordinator,0.9,0.71,0.16,0.86,0.25
+485,Nonprofit Membership Coordinator,0.46,0.51,0.58,0.57,0.68
+486,Nonprofit Communications Director,0.11,0.54,0.47,0.67,0.12
+487,Nonprofit Marketing Director,0.43,0.86,0.58,0.51,0.77
+488,Nonprofit Development Director,0.2,0.36,0.98,0.77,0.66
+489,Nonprofit Finance Director,0.01,0.57,0.02,0.42,0.09
+490,Nonprofit Operations Director,0.32,0.86,0.47,0.94,0.82
+491,Nonprofit Human Resources Director,0.96,0.36,0.92,0.69,0.7
+492,Nonprofit IT Director,0.15,0.79,0.67,0.51,0.61
+493,Nonprofit Facilities Director,0.99,0.89,0.38,0.77,0.35
+494,Nonprofit Legal Counsel,0.24,0.98,0.45,0.19,0.87
+495,Nonprofit Board Member,1.0,0.12,0.36,0.77,0.36
+496,Nonprofit Advisory Board Member,0.03,0.6,0.09,0.72,0.51
+497,Nonprofit Consultant,0.48,0.58,0.45,0.77,0.39
+498,Nonprofit Researcher,0.21,0.23,0.58,0.69,0.66
+499,Nonprofit Educator,0.32,0.36,0.96,0.81,0.54

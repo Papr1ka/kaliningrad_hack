@@ -1,0 +1,23 @@
+services:
+  back:
+    build: ./back_new
+    ports:
+      - "8000:8000"
+    volumes:
+      # Путь к статике
+      - ./new_back/static:/static:z
+
+      # Путь к весам регрессора
+      - ./hope_bert:/weights:z
+    environment:
+      - mode=prod
+    networks:
+      - turbo
+  front:
+    build: ./front/kali_front
+    ports:
+      - "5173:5173"
+    networks:
+      - turbo
+networks:
+  turbo:
