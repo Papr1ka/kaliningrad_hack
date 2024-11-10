@@ -10,7 +10,7 @@
 
 ## Превью
 
-![alt text](image-1.png)
+![alt text](preview.png)
 
 [Скринкаст](https://disk.yandex.ru/i/Kz7Wns61ZhVwYg)
 
@@ -23,6 +23,8 @@
 ## Решение
 
 Решение описано в [презентации](./presentation.pdf).
+
+![Архитектура](architecture.png)
 
 ## Файловая структура
 
@@ -64,7 +66,7 @@
 
 ### Запуск
 
-Скачайте веса из гугл диска в папку new_back/hope_bert
+Скачайте веса из [гугл диска](https://drive.google.com/drive/folders/1oIzjtfrKbJUywuRx4xgDNAQkLsF2xgGI?usp=sharing) в папку new_back/hope_bert
 
 Фронтенд:
 
