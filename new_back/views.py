@@ -98,7 +98,8 @@ async def get_users_view(session: Annotated[AsyncSession, Depends(session_depend
 
         plot = get_ocean_plot(features_dict)
         top_vacancies: List[UserVacancyLink] = user.top_vacancies
-        top_vacancies.sort(key=lambda x: x.probability)[::-1]
+        top_vacancies.sort(key=lambda x: x.probability)
+        top_vacancies = top_vacancies[::-1]
         top_ten = top_vacancies[:10]
         vacancies = []
         for link in top_ten:
@@ -140,7 +141,8 @@ async def get_vacancies_view(session: Annotated[AsyncSession, Depends(session_de
         plot = get_ocean_plot(features_dict)
         
         top_users: List[UserVacancyLink] = vacancy.top_users
-        top_users.sort(key=lambda x: x.probability)[::-1]
+        top_users.sort(key=lambda x: x.probability)
+        top_users = top_users[::-1]
         top_ten = top_users[:10]
 
         users = []
