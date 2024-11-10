@@ -189,7 +189,7 @@ async def create_vacancy_view(name: Annotated[str, Form()],
         'openness': ocean.openness,
     }
 
-    add(vacancy.id, np.array(list(features_dict.values())))
+    add(vacancy.id, np.array(list(features_dict.values())).astype(np.float32))
 
     plot = get_ocean_plot(features_dict)
     ocean_vector = list(features_dict.values())
