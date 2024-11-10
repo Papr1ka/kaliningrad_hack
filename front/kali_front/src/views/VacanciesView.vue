@@ -24,7 +24,7 @@
         class="col-2"
         width="128px"
         height="128px"
-        :src="'http://localhost:8000/static/assets/' + vacancy.verdict + '.svg'"
+        :src="'http://213.171.28.36:8000/static/assets/' + vacancy.verdict + '.svg'"
       />
       <PlotlyChart
         class="col-6"
